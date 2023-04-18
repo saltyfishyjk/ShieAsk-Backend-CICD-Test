@@ -7,8 +7,6 @@ on:
   push: # push时
     branches: # 选定push到哪个分支会触发该事件
       - master # 只在push到master分支时触发
-    paths-ignore: # 以下文件的变更不会触发部署
-      - README.md
 
 jobs:
   # build job
